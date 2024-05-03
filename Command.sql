@@ -8,9 +8,13 @@ VALUES('email@gmail.com','testghnn','123456789');
 
 -- Read
 
-SELECT * FROM Article ; 
+SELECT * FROM Article 
 
 SELECT contenu_Article , datePub_Article FROM Article;
+
+SELECT * FROM Article 
+
+WHERE id_Article = 2;
 
 --Delete
 
